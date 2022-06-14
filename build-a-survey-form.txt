@@ -1,0 +1,97 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+<head>
+  <h1 id="title"> Investment fund registration </h1>
+  <head>
+    <body>
+      <p id="description"> 
+        Please fill out the following details about yourself: </p>
+      <form id="survey-form">
+        <label id="name-label">Please enter your full name: <input id="name" type="text" placeholder="Your Last and First Name" required/></label>
+        <label id="email-label">Please enter your email address: <input id="email" type="email" placeholder="freeCodeCamp@gmail.com" required/></label>
+
+        <label id="number-label">Please enter your age: <input id="number" type="number" min="10" max="60" placeholder="Input age" required/><label>
+         <label>What is your sex?<select id="dropdown"> 
+            <option> Please select an option</option>
+            <option value="1"> Male </option>
+            <option value="2"> Female </option>
+            </select></label>
+            <label>How would you like to invest? <input type="radio" value="1" name="radio"/>Actively
+    <input type="radio" value="2" name="radio"/>Passively
+    <div><label>How much money would you be able to invest monthly?</label></div>
+     <div> <input type="checkbox" name="checkbox" value="3" class="inline"/> </label> <label>100$</label></div>
+     <div> <input type="checkbox" name="checkbox" value="4" class="inline"/> <label>200$</label></div>
+      <div><input type="checkbox" name="checkbox" value="5" class="inline"/> <label>300$</label></div>
+      <label>
+      <input id="submit" type="submit" name="submit"></label> 
+<label>Tell us why you would to like to invest with us:
+  <textarea name="info" rows="3" cols="40" placeholder="Please provide details" >
+    </label>
+        </form>
+      </body>
+
+
+
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+input{
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+	width: 100%;
+  text-align: center;
+}
+input[name="radio"]{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #2766DA;
+  border-color: black;
+  min-width: 300px;
+}
+select{
+  margin: auto;
+	width: 100%;
+  min-height: 2em;
+}
+h1, p{
+   margin: 30 auto;
+   text-align: center;
+}
+body{
+  background-color: #21407B;
+  width: 100%;
+  height: 100vh;
+  margin: 10 auto;
+  font-family: serif;
+	font-size: 16px;
+}
+form{
+  width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 10 auto;
+  padding-bottom: 2em;
+}
+
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+** end of undefined **
+
