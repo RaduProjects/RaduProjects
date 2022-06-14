@@ -1,0 +1,101 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+  <main id="main">
+    <body>
+    <title id="title">Monkey D. Luffy</title>
+    <h1>Monkey D. Luffy</h1>
+    <p><b>The Future Pirate King</b></p>
+    <div id="img-div">
+  <figure id="photo-caption"> <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/One-Piece-Luffy.jpg" class="image" id="image" alt/>
+<figcaption id="img-caption">This is the story of the man who will change the world</figcaption> </figure>
+<p2><b> Here is his journey towards becoming the King of Pirates so far: </b></p2>
+</div>
+<div id="tribute-info">
+  <ul>
+<li><h2>East blue Saga- <p1>Luffy meets his first 4 crewmates and begins his journey towards the Grand Line where the main actions is.</p1></h2></li>
+<li><h2>Arabasta Saga- <p1>Luffy meets a princess which needs his and his crew's help to reclaim her country from a Warlord(Crocodile).</p1></h2></li>
+<li><h2>Sky Island Saga- <p1>Luffy goes to an island up in the clouds and there he meets Enel, a god which persecutes it's people. Luffy defeats the god, freeing the people from his control.</p1></h2></li>
+<li><h2>Water 7 Saga- <p1>Luffy's crewmate, Robin, gets taken by the government for her ability to read poneglyphs(ancient text). Luffy and the rest of the crew go to save Robin. At the end, Robin gets rescued, but they lose an important comrade, the ship that took them from East Blue Saga, until now.(Going Merry)</p1></h2></l1>
+<li><h2>Thriller Bark Saga- <p1>The crew defeats another Warlord(Geckomoria) and makes a new comrade, Brook, a skeleton that can sing.</p1></h2></li>
+<li><h2>Summit War Saga- <p1>Luffy meets other people from his own title "Supernova". While on the island an Admiral from the Navy comes and tries to capture as many of them as possible. Luffy and his crew meet the former Pirate King's right hand man Silvers Rayleigh, which helps them by keeping the Admiral "Kizaru" occupied while a Warlord(Kuma) helps them because he is a commander in Luffy's father revolution army. After getting separted, every crew member arrives on a different island. Luffy hears about his brother's Ace's execution and goes to save him along with Ace's captain Whitebeard "The Strongest Man in the World". Although Luffy managed to rescue Ace, the Admiral "Akainu" manages to land one final blow and Ace dies on the battlefield along with Whitebeard, who was killed by Blackbeard and stole his abilty as well. At the end of the war, Shanks, another emperor, same as Whitebeard, comes to end the war. After the war ends, Luffy decides they need to train, so this doesn't happen again. Here begins their 2 year timeskip in which every crewmember trains on the island they landed on.</p1></h2></l1>
+</div>
+<div>
+  <p3> <i>"Luffy and his crew will be back, stronger than ever" </i></p3></div>
+    </body>
+    <p2> If you have time, you should read more about this incredible pirate and his crew on their <a href="https://onepiece.fandom.com/wiki/Story_Arcs" target="_blank" id="tribute-link">Fandom site.</a><p2>
+</main>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  background-color: #1b1b32;
+  color: #f1be32;
+	font-size: 25;
+  text-align: center;
+  margin: 0;
+  height: 25;
+}
+
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+  clear: right;
+}
+ p{
+   text-align: center;
+   font-size: 15;
+   color: red;
+   background-color: #1b1b32;
+   margin-top: 0;
+   padding-top: 0;
+   
+ }
+ body{
+   background: #DFF0D8;
+ }
+ .image{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+ figure#photo-caption figcaption{
+   text-align: center;
+ }
+
+ h2{
+   text-align: left;
+   font-family: Helvetica;
+   font-size: 15;
+ }
+
+ p1{
+   font-family: Garamond;
+   font-size: 15;
+ }
+
+ p2{
+   display: block;
+   text-align: center;
+   margin-top: 10;
+ }
+ p3{
+   display: block;
+   font-family: Georgia;
+   text-align: center;
+ }
+
+** end of undefined **
+
