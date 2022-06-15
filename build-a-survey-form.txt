@@ -28,7 +28,7 @@
       <label>
       <input id="submit" type="submit" name="submit"></label> 
 <label>Tell us why you would to like to invest with us:
-  <textarea name="info" rows="3" cols="40" placeholder="Please provide details" >
+  <textarea name="info" rows="3" cols="40" placeholder="Please provide details" > </textarea>
     </label>
         </form>
       </body>
