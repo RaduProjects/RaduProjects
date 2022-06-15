@@ -9,7 +9,7 @@
     <body>
       <p id="description"> 
         Please fill out the following details about yourself: </p>
-      <form id="survey-form">
+     <div class="center"> <form id="survey-form">
         <label id="name-label">Please enter your full name: <input id="name" type="text" placeholder="Your Last and First Name" required/></label>
         <label id="email-label">Please enter your email address: <input id="email" type="email" placeholder="freeCodeCamp@gmail.com" required/></label>
 
@@ -22,15 +22,15 @@
             <label>How would you like to invest? <input type="radio" value="1" name="radio"/>Actively
     <input type="radio" value="2" name="radio"/>Passively
     <div><label>How much money would you be able to invest monthly?</label></div>
-     <div> <input type="checkbox" name="checkbox" value="3" class="inline"/> </label> <label>100$</label></div>
-     <div> <input type="checkbox" name="checkbox" value="4" class="inline"/> <label>200$</label></div>
-      <div><input type="checkbox" name="checkbox" value="5" class="inline"/> <label>300$</label></div>
-      <label>
-      <input id="submit" type="submit" name="submit"></label> 
-<label>Tell us why you would to like to invest with us:
-  <textarea name="info" rows="3" cols="40" placeholder="Please provide details" > </textarea>
-    </label>
-        </form>
+    <div>  <input type="checkbox" name="checkbox" value="3" class="inline"/> </label> <label>100$</label></div>
+    <div>  <input type="checkbox" name="checkbox" value="4" class="inline"/> <label>200$</label></div>
+    <div>  <input type="checkbox" name="checkbox" value="5" class="inline"/> <label>300$</label> </div>
+       <label>Tell us why you would to like to invest with us: </label>
+  <textarea name="info" rows="3" cols="40" placeholder="Please provide details"></textarea>
+     
+     <label> <input id="submit" type="submit" name="submit"></label> 
+
+          </form></div>
       </body>
 
 
@@ -85,12 +85,16 @@ form{
 	min-width: 300px;
 	margin: 10 auto;
   padding-bottom: 2em;
+  display: inline-block;
 }
 
 .inline{
   width: unset;
-  margin: 0 0.5em 0 0;
+  margin: 0 auto;
   vertical-align: middle;
+}
+.center{
+  text-align: center;
 }
 
 ** end of undefined **
